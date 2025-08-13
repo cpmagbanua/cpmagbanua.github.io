@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Staatliches&display=swap');
+
+
+body{
+    background-image:url("images/pic1.jpg");
+    background-size:cover;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    color : red;
+    font-size: 25px;
+    font-style: italic;
+    background-color: black;
+    border-left: dashed 10px pink;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+.part1{
+    color: green;
+    font-style: italic;
+}
+.myspan{
+    color: white;
+    text-decoration: underline;s
+}
