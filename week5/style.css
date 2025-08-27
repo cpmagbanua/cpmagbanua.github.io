@@ -1,0 +1,37 @@
+.mid{
+    width: 15%;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+h2, mid{
+    margin: 0;
+}
+.mid:hover{
+    box-shadow: 10px 10px 0 0 brown;
+    background-color: red;
+
+}
+.card-header{
+    display: flex;
+    border-bottom: solid 1px;
+}
+.btn{
+    color:black;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    text-align: left;
+}
+.btn:hover{
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    cursor: pointer;
+}
+.card-wrapper{
+    display: flex;
+    gap: 10px;
+}

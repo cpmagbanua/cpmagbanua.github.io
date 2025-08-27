@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.feature-bar {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.bars {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #1e293b;
+}
+
+.bars:hover {
+    cursor: pointer;
+    background-color: #004588;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.feature span {
+    font-size: 20px;
+}
+
+.feature p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
