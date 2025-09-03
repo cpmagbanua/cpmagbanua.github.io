@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.feature{
+    display: flex;
+    align-items: center;
+}
+.lane{
+    text-align: center;
+}
+.header1 {
+    background: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+
+.header1 ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header1 li {
+    margin-left: 20px;
+}
+
+.header1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.header1 .active {
+    background: #198753;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.slide {
+    display: flex;
+    background: #e2e3e5;
+}
+
+.slide img {
+    
+    height: 65%;
+    width: 65%;
+    
+}
+
+.align{
+    display: flex;
+    text-align: start;
+    padding-top: 0%;
+}
+
+.align1{
+    display: flex;
+    padding: 0%;
+}
+
+.checkbox{
+    align-content:end;
+}
+
+.form {
+    background: #e2e3e5;
+    padding: 20px;
+    width: 30%;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.form button {
+    background: #198753;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.wcu {
+    text-align: center;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #e2e3e5;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card p {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+.member {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background: #e2e3e5;
+    align-items: center;
+}
+
+.member img {
+    width: 50%;
+}
+
+.member-text {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.member button {
+    background: #ffc007;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer {
+    background: #f9f9f9;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.cr {
+    color: #585c5e;
+}
+
+
+
+footer .section {
+    display: contents;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    
+    
+}
+
+footer li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
