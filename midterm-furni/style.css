@@ -1,0 +1,171 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.😎 !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #f9be29 !important;
+}
+
+/* Hero Section */
+.hero-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero-section h1 {
+  max-width: 400px;
+}
+
+.hero-img img {
+  max-width: 500px;
+}
+
+/* Product Section */
+.products-section h2 {
+  font-weight: 700;
+  color: #000;
+}
+
+.products-section img {
+  height: 220px;
+  object-fit: contain;
+}
+
+.btn-dark {
+  background-color: #3b5d50;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #2f4a41;
+}
+
+/* Why Choose Us Section */
+.why-choose-us h2 {
+  color: #000;
+}
+
+.why-choose-us i {
+  color: #3b5d50;
+}
+
+.why-choose-us img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Modern Interior Design Section */
+.interior-section h2 {
+  color: #000;
+}
+
+.interior-section img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interior-section img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.interior-section ul li i {
+  color: #3b5d50 !important;
+}
+
+.btn-dark {
+  background-color: #3b5d50;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #2f4a41;
+}
+
+/* Featured Chairs Section */
+.featured-chairs h2 {
+  color: #000;
+}
+
+.featured-chairs .chair-img {
+  background-color: #f1f5f4;
+  transition: transform 0.3s ease;
+}
+
+.featured-chairs img {
+  transition: transform 0.3s ease;
+}
+
+.featured-chairs .chair-img:hover img {
+  transform: scale(1.05);
+}
+
+.featured-chairs a:hover {
+  color: #3b5d50;
+  text-decoration: underline;
+}
+
+/* Recent Blog Section */
+.recent-blog h2 {
+  color: #000;
+}
+
+.recent-blog a:hover {
+  color: #3b5d50;
+  text-decoration: underline;
+}
+
+.recent-blog .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recent-blog .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.recent-blog img {
+  height: 220px;
+  object-fit: cover;
+}
+/* Footer Section */
+.footer input {
+  border-radius: 8px;
+}
+
+.footer button {
+  background-color: #3b5d50;
+  border-radius: 8px;
+}
+
+.footer button:hover {
+  background-color: #2f4a41;
+}
+
+.footer a:hover {
+  color: #3b5d50;
+}
+
+.footer hr {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer-bottom a:hover {
+  color: #3b5d50; /* Accent hover color */
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+}
