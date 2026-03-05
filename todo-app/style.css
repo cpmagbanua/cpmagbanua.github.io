@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+    background: #E6E6FA;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Tulip overlay */
+body::before {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    font-size: 50px;
+    opacity: 0.06;
+}
+
+/* Main Frosted Card */
+.main-card {
+    width: 75%;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+/* Top bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.top-bar h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.user-name {
+    font-size: 14px;
+}
+
+/* Input section */
+.input-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.date-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-family: "Times New Roman", serif;
+}
+
+.date-group label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: "Times New Roman", serif;
+}
+
+button:hover {
+    background: #b197fc;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #f3f0ff;
+    font-weight: normal;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Optional smooth color transition for table rows */
+tr {
+    transition: background-color 0.3s, color 0.3s;
+}

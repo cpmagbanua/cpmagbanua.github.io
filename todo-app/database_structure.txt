@@ -1,0 +1,21 @@
+DATABASE NAME: todo_db
+
+TABLE NAME: tasks
+
+SQL STRUCTURE:
+
+CREATE DATABASE todo_db;
+
+USE todo_db;
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    task VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DESCRIPTION:
+
+- id: Unique identifier for each task (Primary Key)
+- task: Stores the task description
+- created_at: Automatically stores the date and time the task was created
