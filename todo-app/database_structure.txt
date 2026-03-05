@@ -9,13 +9,18 @@ CREATE DATABASE todo_db;
 USE todo_db;
 
 CREATE TABLE tasks (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT(11) NOT NULL AUTO_INCREMENT,
     task VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    completed TINYINT(1) DEFAULT 0,
+    start_date DATE DEFAULT NULL,
+    due_date DATE DEFAULT NULL,
+    PRIMARY KEY (id)
 );
 
 DESCRIPTION:
 
 - id: Unique identifier for each task (Primary Key)
 - task: Stores the task description
+
 - created_at: Automatically stores the date and time the task was created
